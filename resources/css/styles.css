@@ -1,0 +1,22 @@
+*{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+span{
+  display: inline-block;
+  padding: 20px 10px;
+  float: right;
+}
+
+a{
+  color: black;
+}
