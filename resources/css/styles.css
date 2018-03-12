@@ -1,6 +1,3 @@
-/* Universal Styles */
-
-
 /* Header */
 
 header{
@@ -43,6 +40,12 @@ a{
 
 /* Content */
 
+.text{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .content{
   display: flex;
   width: 1232px;
@@ -66,4 +69,110 @@ a{
 
 .column .small {
   width: 240px;
+}
+
+.image-smtitle{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+}
+
+.image-title{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  }
+
+  .top-left-story .image-title{
+    background-image: url("resources/../../images/img-story-main.png");
+    width: 630px;
+    margin-top: 0;
+    text-align: left;
+    font-size: 40px;
+  }
+
+  .earth-image{
+    background-image: url("resources/../../images/img-story-2.png");
+  }
+
+  .camera-image{
+    background-image: url("resources/../../images/img-story-3.png");
+  }
+
+  .girl-image{
+    background-image: url("resources/../../images/img-story-1.png");
+  }
+
+.bottom-stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story .title-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 17px;
+  width: 300px;
+  height: 250px;
+}
+
+h3 .story-news{
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Box{
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+  font-family: "Verdana", sans-serif;
+  font-size: 12px;
+  color: dimgray;
+}
+
+
+/* Footer */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer span{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+footer nav{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.copy{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
