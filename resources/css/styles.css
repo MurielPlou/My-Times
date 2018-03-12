@@ -43,29 +43,27 @@ a{
 
 /* Content */
 
-.Content{
+.content{
   display: flex;
-  width: 100%;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
-.Column-Large{
+.column{
   display: flex;
-  flex-direction: column:
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column .large {
   width: 630px;
 }
 
-.Column-Medium{
-  display: flex;
-  flex-direction: column:
-  justify-content: center;
+.column .medium {
   width: 300px;
 }
 
-.Column-Small{
-  5justify-content: flex-start;
+.column .small {
   width: 240px;
-}
-
-.Image-Title{
-  5image-resolution:
 }
